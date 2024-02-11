@@ -4,11 +4,15 @@ function calculate() {
     let thickness = document.getElementById("thickness1").value;
 
     let result = phi * ((diameter ** 4) - (diameter - 2 * thickness) ** 4) / (32 * diameter) / 1000;
-
-    alert(result)
+    let resultRound = result.toFixed(2);
+    document.getElementById("resultQ").innerHTML = "The section modulus value is: " + resultRound + " cm^3";
+    // alert(result);
 }
 
 function myFunction() {
-    alert("Thank You for Joining Us!");
+    let firstName = document.getElementById("fname").value;
+    let lastName = document.getElementById("lname").value;
+    let fullName = firstName + " " + lastName;
+    alert("Hello " + fullName + "! Thank You for Joining Us!");
 }
 

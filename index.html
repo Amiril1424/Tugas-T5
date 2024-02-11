@@ -15,12 +15,12 @@
 <body>
     <nav>
         <ul class="nav-bar">
-            <li class="logo"><a href="#"><img src="./_Assets/Logo_Company.jpg" alt="logo KB"></a></li>
+            <li class="logo"><a href="#section-1"><img src="./_Assets/Logo_Company.jpg" alt="logo KB"></a></li>
             <span class="menu-bar">
-                <li><a href="#"><strong>Home</strong></a></li>
-                <li><a href="#"><strong>Analysis</strong></a></li>
+                <li><a href="#section-1"><strong>Home</strong></a></li>
+                <li><a href="#section-2"><strong>Analysis</strong></a></li>
                 <li><a href="#"><strong>Catalog</strong></a></li>
-                <li><a href="#"><strong>Register</strong></a></li>
+                <li><a href="#section-4"><strong>Register</strong></a></li>
                 <li><a href="#"><strong>Contact Us</strong></a></li>
             </span>
             <!-- <li class="search"><a href="#"><img src="./_Assets/search.png" alt="search"></a></li> -->
@@ -90,13 +90,11 @@
                         <label for="unit">mm</label><br>
                         <br>
                         <button type="button" onclick="calculate()">calculate!</button><br>
+                        <label for="result" id="resultQ"></label>
 
                     </fieldset>
                 </form>
             </div>
-
-
-
 
         </section>
         <!-- Section 3 -->
@@ -137,7 +135,7 @@
                                 <p>Tell us about you!</p>
                                 <textarea id="text-self" name="text-self" rows="4" cols="50"></textarea><br>
                                 <br>
-                                <button type="submit" onclick="myFunction()">Sign Up</button>
+                                <button id="submit" type="submit" onclick="myFunction()">Sign Up</button>
                             </div>
                         </fieldset>
                     </form>
@@ -150,15 +148,10 @@
         </section>
 
 
-
-
     </main>
 
 
-
-
     <script src="index.js"></script>
-
 
     <footer>
         <p>Footer</p>

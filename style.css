@@ -159,6 +159,13 @@ fieldset {
 
 }
 
+#resultQ {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    color: black;
+}
+
 footer {
     font-size: 100px;
     border-top: 1px solid black;
@@ -201,7 +208,7 @@ legend {
 
 }
 
-button[type="submit"] {
+#submit {
     color: white;
     background-color: transparent;
     border: 1px solid white;
