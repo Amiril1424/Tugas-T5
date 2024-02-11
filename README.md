@@ -19,4 +19,4 @@ We welcome any and all contributions! Here are some ways you can get started:
 ![Web display](./_Assets/web.JPG)
 
 # You can go to our sample web:
-([https://verdant-alpaca-fb771c.netlify.app/])(https://verdant-alpaca-fb771c.netlify.app/)
+([https://stately-dieffenbachia-5fce26.netlify.app/])(https://stately-dieffenbachia-5fce26.netlify.app/)
